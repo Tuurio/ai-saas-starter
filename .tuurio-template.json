@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 2,
+  "sourceRepository": "Tuurio/auth_samples",
+  "sourcePath": "ai_saas_starter",
+  "sourceSha": "b744aa21520cb48d5588228a6f9d2fb22f598c9f",
+  "packageSha256": "ec17b8d39eca13665ce80f9977be044ed4250960cbf946e4f553b7570599f35d",
+  "templateId": "ai-saas",
+  "managedFiles": [
+    {
+      "path": ".env.example",
+      "sha256": "b0bc547d933c7d709928c14655eccde3c1a44a42ca92da7d28a48b3ea5c30ff2"
+    },
+    {
+      "path": ".github/social-preview.png",
+      "sha256": "d7bf87813b8876f39b0c3bf0a96e88068e265b8a1807f53431621cbcf5f153d6"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "1ed44b168a51aa5a8c005bf93f27930112a3aceb144f94a799e7108b30940e14"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2358a49e21850c6ab950b22eeea77552f0680eacc5f8a8f653896bfdf7c6a82b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "d5247b31c107a022945ecc2019fd8475d91d0938cfcb4831d744ecabf3bb497b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ebc14de33bf636216e4dd959ee969fc04a6c8a459ac9647d6e3ab4020b1bb473"
+    },
+    {
+      "path": "db/schema.sql",
+      "sha256": "6917516f4967a60d7d8367062dedde38a8791af79a962b7e8e7ed616686025ff"
+    },
+    {
+      "path": "docs/screenshot.png",
+      "sha256": "27c4280ce6691a0e2b35fafccf67491105e914ad9f734a97271eb63e8f9ad96e"
+    },
+    {
+      "path": "next-env.d.ts",
+      "sha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "50fe577eed51b85d01655e7f6d5ba7891da296353ba3c2499282777d3b891df2"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1c3e084f9fb0d0a30454ac6a8e7b8ededacc122cb5880b012ffefb4e2ced337e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "505b77b8220e56479fc9ccd329124af90363c09d327252b5d83810cda2454fd1"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "296c35a153cd5c303d7f35c8e15de3722cdee83e2a1f6be7c9fc4f8f1b682894"
+    },
+    {
+      "path": "scripts/migrate.ts",
+      "sha256": "011c23b1d0a437f3e07cdc816e05c5943067b0e621fe4f9e73f8269340f035fd"
+    },
+    {
+      "path": "src/app/api/admin/route.ts",
+      "sha256": "f27679ad7857d68d20d8bef7ff6958c2b9c12e9ba5365549e83a977f2645c435"
+    },
+    {
+      "path": "src/app/api/config/route.ts",
+      "sha256": "01368b998abcdcfcff2869df294b698c1d249694847b96d50571f6a0ec18adb8"
+    },
+    {
+      "path": "src/app/api/conversations/[conversationId]/messages/route.ts",
+      "sha256": "4e2c29619a9693826180d81f292ed2ab773cdee4337ec01b25f8a879fcb73972"
+    },
+    {
+      "path": "src/app/api/conversations/[conversationId]/route.ts",
+      "sha256": "39988d0d35c44eb28fb01dd5e5291ff257ebdf27f4037fc7001d876c283370a3"
+    },
+    {
+      "path": "src/app/api/conversations/route.ts",
+      "sha256": "58d8d168c0dc39fc49c57fcd0f70506042cfdfb83fa2a2d93d2f1463231be1b7"
+    },
+    {
+      "path": "src/app/api/usage/route.ts",
+      "sha256": "1fdd7c1d1efb5aad9c02bda6a248d7dc479c92fc7beca21e44ba51a64b82595b"
+    },
+    {
+      "path": "src/app/auth/callback/page.tsx",
+      "sha256": "beab1e85c77e57c2dbf402f58819bbadf3e10bba5e9ea0e367ee76b287aac3db"
+    },
+    {
+      "path": "src/app/error.tsx",
+      "sha256": "3fb0f7885938a60440070b22f575bdf3ea7d60766d96d357a6251223da445b88"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "6d7753b55350d63a0805f86e92a916b63e2207665920ec2d40beb10ff95b81fa"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "d591781f25807fb6e17b8a6ae6cfc4c977d94b76406a9a905df755af90e88253"
+    },
+    {
+      "path": "src/app/logout/callback/page.tsx",
+      "sha256": "e21d5871ad5defcdb41ee75366a4421f7bec6349fc876e7141e51fb4945d9df7"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "sha256": "801d11f5c59146dc4a38d57db9b001033bc0fcac0ce2ea3348b73bb40d34dfa8"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha256": "542acd200ae8ae6af58503f32acc8c89297068e6bbce293704a7f936a8491b08"
+    },
+    {
+      "path": "src/app/pricing/page.tsx",
+      "sha256": "75d6eab0147e59a4373f1694a00498ff15cca64427377550ffbb3e888719358b"
+    },
+    {
+      "path": "src/app/workspace/admin/page.tsx",
+      "sha256": "cdee35f3876f803c8d79bc7c5d9f22db2097ce6ac844a70084d7e5fc776ef5a8"
+    },
+    {
+      "path": "src/app/workspace/page.tsx",
+      "sha256": "611fdc4478933c6c4026de4543f1a2c378c7a85b60d502e8cb3ce0f2dcc28114"
+    },
+    {
+      "path": "src/app/workspace/settings/page.tsx",
+      "sha256": "82ec6861141df2b6271203e95229f248ed95c48aff9d3a41629a13b42ca47f02"
+    },
+    {
+      "path": "src/components/admin-panel.tsx",
+      "sha256": "36948c22af608bd26854d96b83e3a87ad632597fcc8f32085bd4b6c3e164995f"
+    },
+    {
+      "path": "src/components/auth-provider.tsx",
+      "sha256": "aa025ea2dc37eecfa30dcd4476396116504adff769639043d4487dee5119d853"
+    },
+    {
+      "path": "src/components/hero-actions.tsx",
+      "sha256": "7d7848aebd0f9b41508d1f1bb0edb0e1d3a6d156dd175c99cfdb291d837cd1a5"
+    },
+    {
+      "path": "src/components/site-header.tsx",
+      "sha256": "4aa144818c85610dd490190ada86b500f6fdfc7570548fbe24d7b5fb4569ca82"
+    },
+    {
+      "path": "src/components/workspace-app.tsx",
+      "sha256": "8e4117fe1ed7b4dae898406f0b6caf0927794f250a09f771ce290a64ba082b6a"
+    },
+    {
+      "path": "src/lib/ai/demo.ts",
+      "sha256": "6d9344ca4d0551be72ccc2b417fb212c82c2b787bcfaeb87b89a340e1c83e338"
+    },
+    {
+      "path": "src/lib/ai/index.ts",
+      "sha256": "c50eb9baa3358a6a85478867bf839bb88c306f5e153c034c2110661c055ea947"
+    },
+    {
+      "path": "src/lib/ai/openai-compatible.ts",
+      "sha256": "4e74c123e734bf387d6fb0664573e60011ba55ef990c62d37cc77adc78f9e44c"
+    },
+    {
+      "path": "src/lib/ai/types.ts",
+      "sha256": "017ab3fa5bb28f773551d4a2a4076e2c7db9946db2c7fc47f0412acf97007b1e"
+    },
+    {
+      "path": "src/lib/api.ts",
+      "sha256": "27609d2a96703b317ce01cb3957366adf251a75168a58574ffaa1d85bababc1d"
+    },
+    {
+      "path": "src/lib/auth/client.ts",
+      "sha256": "a416f3ef86644f20ca0dbb3a6b3ef0baf79a4dc4562ec7f9295468b49ba0430c"
+    },
+    {
+      "path": "src/lib/auth/public-config.ts",
+      "sha256": "36b9810767ca01c74e86d0208445f74af919d20655c271aeb4c358db388545ab"
+    },
+    {
+      "path": "src/lib/auth/server.ts",
+      "sha256": "48f70ed6099f1be915c06bc6cc46536fb21d967e6a58e215c0d4607b49546e0d"
+    },
+    {
+      "path": "src/lib/domain.ts",
+      "sha256": "2fa09d129303bc4f89a54bd82c9759b91211bcb400f06f1470adfdf028ef8fe6"
+    },
+    {
+      "path": "src/lib/env.ts",
+      "sha256": "33e349fc5d686fa910d160a43697ea228b494630ca6de694c32f9fc8030eeb20"
+    },
+    {
+      "path": "src/lib/rate-limit.ts",
+      "sha256": "137ab46f9d81c540bbbc7db4df638f98465d9279adf5b639dc75d5ecd87bce55"
+    },
+    {
+      "path": "src/lib/storage/index.ts",
+      "sha256": "69559e4837a389df91c63276e73129d154774dca3cf2883d355d48b60f604d29"
+    },
+    {
+      "path": "src/lib/storage/memory.ts",
+      "sha256": "65ee14efdb2868dedbd319290e247b33f9cb806e338446e6cdfce589b6bf464e"
+    },
+    {
+      "path": "src/lib/storage/postgres.ts",
+      "sha256": "65fafd67949da29cd2799bda3b9dd402d317b194bcff9710a671f28781e8a5d8"
+    },
+    {
+      "path": "src/lib/storage/shared.ts",
+      "sha256": "67532c49ec22fdbc19f20eca2042c7e961e054c7b179bacd7a205b8f73964508"
+    },
+    {
+      "path": "src/tuurio.public.json",
+      "sha256": "64366f7686a2ee578d2c02401bad53eca3c5a702ed8a1c3c6596d3b4df4bd319"
+    },
+    {
+      "path": "tests/demo-provider.test.ts",
+      "sha256": "4026c831070ce9502810bd82e1b8ee78fb1e02a17886a37bf06474d5d7eb452c"
+    },
+    {
+      "path": "tests/e2e/public.spec.ts",
+      "sha256": "af0bc913621aa629336e73661b21bdde84c9473f2950fcb21f1f625447aabc55"
+    },
+    {
+      "path": "tests/memory-store.test.ts",
+      "sha256": "e31386665d8cd59cc7f85811fc7eb677983b644ca448ad9be3957ace5ca0a90f"
+    },
+    {
+      "path": "tests/postgres-store.test.ts",
+      "sha256": "16f2891f9cc492afb360ab7d192faef7e0c3db5146798766e7f91170686f077b"
+    },
+    {
+      "path": "tests/public-config.test.ts",
+      "sha256": "407ccf18d596ebf461937303c36ea0261fda4a3efa871ca88ade6b2d48639297"
+    },
+    {
+      "path": "tests/security.test.ts",
+      "sha256": "dc7fb6239bf3eb5695fefb3a342311286ba61a50e6875e69742afa966c9960a4"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "32f0a59b5e4ca1d51ffe5346573b4808e14d261d1c4e49382f8edd139f7bb6b2"
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "91a1aa6613bf309a24cc77943e3f1b3e415b8cbd0f1d8d4f8d578a069aa89e84"
+    }
+  ]
+}
