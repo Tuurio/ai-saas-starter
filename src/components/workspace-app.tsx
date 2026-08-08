@@ -13,7 +13,7 @@ async function readError(response: Response) {
 }
 
 export function WorkspaceApp() {
-  const { user, loading, error: authError, signIn, signOut, apiFetch } = useAuth();
+  const { user, loading, configured, configurationError, error: authError, signIn, signOut, apiFetch } = useAuth();
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [selected, setSelected] = useState<Conversation | null>(null);
   const [usage, setUsage] = useState<UsageSnapshot | null>(null);
@@ -26,10 +26,11 @@ export function WorkspaceApp() {
     if (!user) return;
     try {
       const [conversationResponse, usageResponse, configResponse] = await Promise.all([
-        apiFetch("/api/conversations"), apiFetch("/api/usage"), fetch("/api/config"),
+        apiFetch("/api/conversations"), apiFetch("/api/usage"), apiFetch("/api/config"),
       ]);
       if (!conversationResponse.ok) throw new Error(await readError(conversationResponse));
       if (!usageResponse.ok) throw new Error(await readError(usageResponse));
+      if (!configResponse.ok) throw new Error(await readError(configResponse));
       const conversationData = await conversationResponse.json() as { conversations: Conversation[] };
       setConversations(conversationData.conversations);
       setUsage((await usageResponse.json() as { usage: UsageSnapshot }).usage);
@@ -93,6 +94,7 @@ export function WorkspaceApp() {
 
   const used = useMemo(() => usage ? usage.inputUnits + usage.outputUnits : 0, [usage]);
   if (loading) return <main className="centered-state"><p>Restoring your workspace…</p></main>;
+  if (configured === false) return <main className="centered-state"><div className="empty-card"><span className="eyebrow">Setup required</span><h1>Connect your own Tuurio ID client</h1><p>The product is running, but authentication has not been provisioned for this origin. No shared or placeholder client will be used.</p><div className="stacked-actions"><Link className="button" href="/setup">Open setup guide</Link><Link className="button secondary" href="/demo">Explore the local demo</Link><Link href="/">Back home</Link></div><details className="technical-detail"><summary>Technical detail</summary><code>{configurationError}</code></details></div></main>;
   if (!user) return <main className="centered-state"><div className="empty-card"><span className="eyebrow">Protected workspace</span><h1>Sign in to continue</h1><p>{authError ?? "Use Tuurio ID to open an organization-scoped workspace."}</p><button className="button" onClick={() => void signIn()}>Sign in with Tuurio ID</button><Link href="/">Back home</Link></div></main>;
 
   return <main className="workspace-shell">

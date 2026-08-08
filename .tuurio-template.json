@@ -2,13 +2,13 @@
   "schemaVersion": 2,
   "sourceRepository": "Tuurio/auth_samples",
   "sourcePath": "ai_saas_starter",
-  "sourceSha": "b744aa21520cb48d5588228a6f9d2fb22f598c9f",
-  "packageSha256": "ec17b8d39eca13665ce80f9977be044ed4250960cbf946e4f553b7570599f35d",
+  "sourceSha": "fd87414e420b10fc0ca59d5552595d1b51be6230",
+  "packageSha256": "b5745c3ae422b7b9a22e3abca7f1749d9c2ef039b337766ce54f95f39deb3290",
   "templateId": "ai-saas",
   "managedFiles": [
     {
       "path": ".env.example",
-      "sha256": "b0bc547d933c7d709928c14655eccde3c1a44a42ca92da7d28a48b3ea5c30ff2"
+      "sha256": "5f941065db5a6d75ed61647373f16ce3c5acb1e7327691d21c457a1b3e939843"
     },
     {
       "path": ".github/social-preview.png",
@@ -24,7 +24,7 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+      "sha256": "69207533f950058230ffc80c837a9ab7fbba52a69ba7de0d73b72caf9d8f3673"
     },
     {
       "path": "CLAUDE.md",
@@ -40,7 +40,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "ebc14de33bf636216e4dd959ee969fc04a6c8a459ac9647d6e3ab4020b1bb473"
+      "sha256": "23ed707f197e6865a585614aaaaad7c030faba8099ed03775074b657b3acfc3c"
     },
     {
       "path": "db/schema.sql",
@@ -56,7 +56,7 @@
     },
     {
       "path": "next.config.ts",
-      "sha256": "50fe577eed51b85d01655e7f6d5ba7891da296353ba3c2499282777d3b891df2"
+      "sha256": "facd3e2dc65d0c3eede2d43721612383251f3292c6ee5c3fe2872f4d3493c165"
     },
     {
       "path": "package-lock.json",
@@ -80,11 +80,11 @@
     },
     {
       "path": "src/app/api/config/route.ts",
-      "sha256": "01368b998abcdcfcff2869df294b698c1d249694847b96d50571f6a0ec18adb8"
+      "sha256": "b759b5f802510ac090e3ee440a7f2bff9b0133c66090c80e5102b3c3418cee70"
     },
     {
       "path": "src/app/api/conversations/[conversationId]/messages/route.ts",
-      "sha256": "4e2c29619a9693826180d81f292ed2ab773cdee4337ec01b25f8a879fcb73972"
+      "sha256": "478bd221c6da8e8ef6eace643b60b5c7edb6c6191fe13ff51e0117e28e75b3cd"
     },
     {
       "path": "src/app/api/conversations/[conversationId]/route.ts",
@@ -103,12 +103,16 @@
       "sha256": "beab1e85c77e57c2dbf402f58819bbadf3e10bba5e9ea0e367ee76b287aac3db"
     },
     {
+      "path": "src/app/demo/page.tsx",
+      "sha256": "de8676119a53e7cfb6f552fc3684ffff8958323661930d721a79bb7359eed238"
+    },
+    {
       "path": "src/app/error.tsx",
       "sha256": "3fb0f7885938a60440070b22f575bdf3ea7d60766d96d357a6251223da445b88"
     },
     {
       "path": "src/app/globals.css",
-      "sha256": "6d7753b55350d63a0805f86e92a916b63e2207665920ec2d40beb10ff95b81fa"
+      "sha256": "8f1a477fc516958522f4f7e11446dc069d789386cac487c30a259c89f06841d5"
     },
     {
       "path": "src/app/layout.tsx",
@@ -131,6 +135,10 @@
       "sha256": "75d6eab0147e59a4373f1694a00498ff15cca64427377550ffbb3e888719358b"
     },
     {
+      "path": "src/app/setup/page.tsx",
+      "sha256": "c3e95e40d57bfba57462fdc21602a024b374c869f1dde33fe0fbd032d662d57d"
+    },
+    {
       "path": "src/app/workspace/admin/page.tsx",
       "sha256": "cdee35f3876f803c8d79bc7c5d9f22db2097ce6ac844a70084d7e5fc776ef5a8"
     },
@@ -148,19 +156,27 @@
     },
     {
       "path": "src/components/auth-provider.tsx",
-      "sha256": "aa025ea2dc37eecfa30dcd4476396116504adff769639043d4487dee5119d853"
+      "sha256": "6b0591eb7be554b6dda52e2b0148f9770d3e48e87231b6c346ce1c7c077f0f13"
+    },
+    {
+      "path": "src/components/demo-workspace.tsx",
+      "sha256": "d4d290bb577c9d22c79c3fd63f095a07ab0b9d061d597326b96cfda72e663cad"
     },
     {
       "path": "src/components/hero-actions.tsx",
-      "sha256": "7d7848aebd0f9b41508d1f1bb0edb0e1d3a6d156dd175c99cfdb291d837cd1a5"
+      "sha256": "aa9fd4dc2ec2e0c528a6dfe25ba9fa4ba3e4249538515bcd77377aaadaa69e99"
+    },
+    {
+      "path": "src/components/setup-guide.tsx",
+      "sha256": "e12f3e9d159e17dc5d5c7383fc8f21d0ffc85d4ae73306e566b08dc6eed370d7"
     },
     {
       "path": "src/components/site-header.tsx",
-      "sha256": "4aa144818c85610dd490190ada86b500f6fdfc7570548fbe24d7b5fb4569ca82"
+      "sha256": "f351d899673b59fb6e796eb82925fcee1ba1a0c8d2ce4b08e94fe5a72381a19c"
     },
     {
       "path": "src/components/workspace-app.tsx",
-      "sha256": "8e4117fe1ed7b4dae898406f0b6caf0927794f250a09f771ce290a64ba082b6a"
+      "sha256": "50f03f544cfe5a4c9990b263cecb7b1663f4b18854a730ba9268d17c3ea9ee6a"
     },
     {
       "path": "src/lib/ai/demo.ts",
@@ -192,11 +208,11 @@
     },
     {
       "path": "src/lib/auth/server.ts",
-      "sha256": "48f70ed6099f1be915c06bc6cc46536fb21d967e6a58e215c0d4607b49546e0d"
+      "sha256": "ebeabbbf95cd7d15eb5208b3dcd33300d14f07ce124ffc8763ede36e33a299f9"
     },
     {
       "path": "src/lib/domain.ts",
-      "sha256": "2fa09d129303bc4f89a54bd82c9759b91211bcb400f06f1470adfdf028ef8fe6"
+      "sha256": "2df50d5131b04f899c21db5980e9d250fc7abc20c2de6165931d7f63afaaea51"
     },
     {
       "path": "src/lib/env.ts",
@@ -204,7 +220,11 @@
     },
     {
       "path": "src/lib/rate-limit.ts",
-      "sha256": "137ab46f9d81c540bbbc7db4df638f98465d9279adf5b639dc75d5ecd87bce55"
+      "sha256": "3bc78ef0e4d205400782d787d311d90b273917f9925da98e050819494f298010"
+    },
+    {
+      "path": "src/lib/setup-command.ts",
+      "sha256": "71cad4ae52fccb3a73776603fdda21d6a4a899e64e2c674f9ed9504595f72b9a"
     },
     {
       "path": "src/lib/storage/index.ts",
@@ -212,11 +232,11 @@
     },
     {
       "path": "src/lib/storage/memory.ts",
-      "sha256": "65ee14efdb2868dedbd319290e247b33f9cb806e338446e6cdfce589b6bf464e"
+      "sha256": "638bd45e3754872df384a5f07dfb6bb6983226016c6b094736107de7c7367d3c"
     },
     {
       "path": "src/lib/storage/postgres.ts",
-      "sha256": "65fafd67949da29cd2799bda3b9dd402d317b194bcff9710a671f28781e8a5d8"
+      "sha256": "b698353de443107821a002a88ec9c9b5f90bb1f97a605b8b70776ecfc62c1927"
     },
     {
       "path": "src/lib/storage/shared.ts",
@@ -232,15 +252,15 @@
     },
     {
       "path": "tests/e2e/public.spec.ts",
-      "sha256": "af0bc913621aa629336e73661b21bdde84c9473f2950fcb21f1f625447aabc55"
+      "sha256": "c4aab7352a2a007d0e5da6e43a6c878f57322903b3f701494694d7f0878b3b76"
     },
     {
       "path": "tests/memory-store.test.ts",
-      "sha256": "e31386665d8cd59cc7f85811fc7eb677983b644ca448ad9be3957ace5ca0a90f"
+      "sha256": "6452db0223d35ee28d8f9cd3dd917d41397362dd9f90c70af0b817d0c9a06797"
     },
     {
       "path": "tests/postgres-store.test.ts",
-      "sha256": "16f2891f9cc492afb360ab7d192faef7e0c3db5146798766e7f91170686f077b"
+      "sha256": "ccd3354f9bc490ec9634621838b8a4588caf0e90a2ecbb0b96d6a40b92614750"
     },
     {
       "path": "tests/public-config.test.ts",
@@ -248,7 +268,11 @@
     },
     {
       "path": "tests/security.test.ts",
-      "sha256": "dc7fb6239bf3eb5695fefb3a342311286ba61a50e6875e69742afa966c9960a4"
+      "sha256": "7ab4dcc05ce323c24e353e64f90827809339d3dc141d58e1ae7fe1fa9a8e49bc"
+    },
+    {
+      "path": "tests/setup-command.test.ts",
+      "sha256": "2d565fa69a3cc0bb6c4d470602be3c1408a293441604701867a9bbbf2d3bd6f0"
     },
     {
       "path": "tsconfig.json",
