@@ -4,6 +4,8 @@ Production-oriented multi-tenant AI SaaS starter with Next.js, streaming AI, Pos
 
 [![Verify template](https://github.com/Tuurio/ai-saas-starter/actions/workflows/verify.yml/badge.svg)](https://github.com/Tuurio/ai-saas-starter/actions/workflows/verify.yml)
 
+![Tuurio AI SaaS Starter social preview](.github/social-preview.png)
+
 > Generated from [`Tuurio/auth_samples/ai_saas_starter`](https://github.com/Tuurio/auth_samples/tree/main/ai_saas_starter). Submit implementation fixes upstream so they are not replaced by the next synchronized release.
 
 ## What you get

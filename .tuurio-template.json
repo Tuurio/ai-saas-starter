@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "sourceRepository": "Tuurio/auth_samples",
   "sourcePath": "ai_saas_starter",
-  "sourceSha": "fd87414e420b10fc0ca59d5552595d1b51be6230",
-  "packageSha256": "b5745c3ae422b7b9a22e3abca7f1749d9c2ef039b337766ce54f95f39deb3290",
+  "sourceSha": "ee751281bb9cedc2d269c3e21e6e0d544cf2cbf8",
+  "packageSha256": "cec34559d3f7008a5607def1117061d9ef65fec692846d9d40e34e1b559a26d0",
   "templateId": "ai-saas",
   "managedFiles": [
     {
@@ -40,7 +40,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "23ed707f197e6865a585614aaaaad7c030faba8099ed03775074b657b3acfc3c"
+      "sha256": "b25c0a027a8ba276ac4e81274d46671f5b63247f9b76c180377da7907fd9d78b"
     },
     {
       "path": "db/schema.sql",
